@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 52px;
+  font-weight: 900;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+
+.hero {
+  color: #fefae0;
+}
+
+.img-fluid {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.hero-text {
+  max-width: 70%;
+  margin: 0 0 0 80px;
+}
+
+.left-hero {
+  background: #798645;
+  padding: 80px 20px;
+}
+
+.right-hero {
+  background: #fefae0;
+  padding: 80px 20px;
+}
+
+.blurbs {
+  max-width: 50%;
+  margin: 50px 0 0 0;
+}
