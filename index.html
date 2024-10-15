@@ -19,35 +19,53 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+      <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Emma Konrad</a>
+          <a class="navbar-brand" href="#">
+            <img src="/images/EK.png" alt="Emma Konrad logo" class="logo" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNavDropdown"
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Emma Konrad
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -78,5 +96,108 @@
         </div>
       </div>
     </div>
+    <section>
+      <div class="container">
+        <div class="skills">
+          <div class="row">
+            <div class="col boxes roles">
+              <h2>Project Manager</h2>
+              <p>
+                I've spent over 5 years are a project manager in tech, giving me
+                a keen understanding of how products are made. During this time,
+                I learned how to gather and champion client requirements and
+                translate them into deliverables that delight the user.
+              </p>
+            </div>
+            <div class="col boxes roles">
+              <h2>Developer</h2>
+              <p>
+                I am most excited by being able to build products myself. I
+                began my coding journey recently, but am excited to move
+                forward. I focus mostly on building vanilla and react apps. I am
+                currently looking for a role where I can grow these skills as a
+                developer and creator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio-section">
+      <div class="container">
+        <h3>Recent Projects</h3>
+        <div class="row">
+          <div class="col boxes portfolio-preview">
+            <h5 class="card-title">Weather App</h5>
+            <h6 class="card-subtitle mb-2 text-muted">React, Bootstrap</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="card-link btn">Check it out</a>
+          </div>
+          <div class="col boxes portfolio-preview">
+            <div class="card-body">
+              <h5 class="card-title">Dictionary App</h5>
+              <h6 class="card-subtitle mb-2 text-muted">React, Bootstrap</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link btn">Check it Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <div class="row">
+          <div class="col-2">
+            <p class="footer-heading">More Info</p>
+            <ul>
+              <a
+                href="https://www.wellingtonairport.co.nz/"
+                target="_blank"
+                title="Airport Link"
+                ><li>Wellington Airport Website</li></a
+              >
+              <a
+                href="https://maps.app.goo.gl/9CeQc92Kd4RZCa2Z9"
+                target="_blank"
+                title="Map Link"
+                ><li>Map of Wellington</li></a
+              >
+              <a
+                href="https://www.metlink.org.nz/"
+                target="_blank"
+                title="Transit link"
+                ><li>Public Transport Map</li></a
+              >
+            </ul>
+          </div>
+          <div class="col-5">
+            <p class="footer-heading">About Me</p>
+            <p>
+              Hi! My name is Emma and I love to travel. Right now, my favorite
+              city I've been to is Wellington, NZ. I created this page as part
+              of a project for SheCodes Responsive to develop my coding skills.
+            </p>
+          </div>
+          <div class="col-5">
+            <p class="footer-heading">About this website</p>
+            <p>
+              I created this page as part of a project for SheCodes Responsive
+              to develop my coding skills. Check out the code on
+              <a
+                href="https://github.com/emmakon/vanilla-responsive-travel-website/blob/main/index.html"
+                title="Emmakon Github"
+                >Github</a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

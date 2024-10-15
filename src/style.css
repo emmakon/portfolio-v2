@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+  background: #626f47;
 }
 
 h1 {
@@ -8,12 +9,56 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
 p {
   margin-top: 30px;
 }
 
+section {
+  padding: 60px 40px;
+}
+
 .bg-body-tertiary {
   --bs-bg-opacity: 0;
+}
+
+.navbar-toggler {
+  color: #798645;
+  border: 1px solid #798645;
+}
+
+.offcanvas-header {
+  background: #fefae0;
+}
+
+.offcanvas-title {
+  color: #fefae0;
+  font-weight: 600;
+  background: #798645;
+  border-radius: 6px;
+  padding: 5px 8px;
+}
+
+.offcanvas-body {
+  background: #fefae0;
+  color: #798645;
+}
+
+.nav-link {
+  color: #798645;
+}
+
+.navbar-nav .nav-link.active {
+  color: #798645;
+  font-weight: 700;
+}
+
+.logo {
+  max-width: 75px;
 }
 
 .hero {
@@ -33,7 +78,7 @@ p {
 
 .hero-text {
   max-width: 70%;
-  margin: 0 0 0 80px;
+  margin: 0 80px 0 80px;
 }
 
 .left-hero {
@@ -49,4 +94,63 @@ p {
 .blurbs {
   max-width: 50%;
   margin: 50px 0 0 0;
+}
+
+.boxes {
+  margin: 40px;
+  padding: 50px 50px 30px 50px;
+}
+
+.roles {
+  border: solid 2px #fefae0;
+  border-radius: 10px;
+}
+
+.skills {
+  color: #fefae0;
+  max-width: 100%;
+}
+
+.portfolio-section {
+  background: #fefae0;
+}
+
+.portfolio-preview {
+  border: solid 2px #798645;
+  border-radius: 10px;
+}
+
+.btn {
+  background: #798645;
+  color: #fefae0;
+}
+
+.btn:hover {
+  background: #fefae0;
+  color: #798645;
+  border: solid 2px #798645;
+  border-radius: 4px;
+}
+
+footer {
+  color: #fefae0;
+  text-align: justify;
+}
+
+footer a {
+  color: #fefae0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
 }
