@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   background: #626f47;
 }
 
@@ -13,7 +13,6 @@ h2 {
   font-size: 36px;
   font-weight: 900;
 }
-
 p {
   margin-top: 30px;
 }
@@ -111,6 +110,10 @@ section {
   max-width: 100%;
 }
 
+.recent {
+  color: #798645;
+}
+
 .portfolio-section {
   background: #fefae0;
 }
@@ -118,6 +121,12 @@ section {
 .portfolio-preview {
   border: solid 2px #798645;
   border-radius: 10px;
+  color: #798645;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.text-muted {
+  color: #798645 !important;
 }
 
 .btn {
@@ -135,6 +144,10 @@ section {
 footer {
   color: #fefae0;
   text-align: justify;
+}
+
+footer .footer-heading {
+  font-weight: 700;
 }
 
 footer a {
