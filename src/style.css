@@ -7,6 +7,7 @@ h1 {
   margin-top: 50px;
   font-size: 52px;
   font-weight: 900;
+  color: #fefae0;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
 }
 p {
   margin-top: 30px;
+  color: #fefae0;
 }
 
 section {
@@ -114,6 +116,10 @@ section {
   color: #798645;
 }
 
+.card-text {
+  color: #798645;
+}
+
 .portfolio-section {
   background: #fefae0;
 }
@@ -123,6 +129,7 @@ section {
   border-radius: 10px;
   color: #798645;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  padding: 30px;
 }
 
 .text-muted {
@@ -141,9 +148,71 @@ section {
   border-radius: 4px;
 }
 
+.portfolio-full {
+  margin: 0 auto;
+}
+
+.portfolio-box {
+  background: #fefae0;
+  height: 100%;
+}
+
+.about-section {
+  margin-top: 80px;
+}
+.portfolio-section {
+  margin-top: 50px;
+}
+
+.portfolio-section h1 {
+  color: #798645;
+  margin: 0 0 30px 0;
+}
+
+.portfolio-section .vanilla-project {
+  text-decoration: none;
+  color: #798645;
+}
+
+.portfolio-section .vanilla-project0:hover {
+  text-decoration: underline;
+}
+
+.contact-section {
+  margin: 80px;
+  text-align: center;
+}
+
+.emma-email {
+  font-size: 36px;
+  color: #fefae0;
+  margin-right: 15px;
+  display: inline;
+}
+
+i {
+  font-size: 32px;
+  color: #fefae0;
+}
+
+.icon-copy {
+  display: inline;
+}
+
+.success {
+  color: #fefae0;
+  font-size: 15px;
+}
+
+.contact-section button {
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
+
 footer {
   color: #fefae0;
   text-align: justify;
+  border-top: 4px solid #fefae0;
 }
 
 footer .footer-heading {
